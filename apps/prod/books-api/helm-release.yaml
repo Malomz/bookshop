@@ -7,7 +7,7 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: ./charts/books-api
+      chart: apps/prod/books-api/charts/books-api
       sourceRef:
         kind: GitRepository
         name: flux-system
