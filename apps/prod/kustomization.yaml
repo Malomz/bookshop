@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - books-api/helm-release.yaml
-  - order-api/helm-release.yaml
-  - frontend/helm-release.yaml
+  - books-api
+  - order-api
+  - frontend
